@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <meta name="author" content="Parham-dev27" />
+        <meta
+            name="description"
+            content="Frontend Mentor | Stats preview card component" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <title>Frontend Mentor | Stats preview card component</title>
+        <link rel="stylesheet" href="styles/css/style.css" />
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+                margin: 5px;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+    </head>
+    <body>
+        <article class="card">
+            <div class="card__img"></div>
+            <div class="card__text">
+                <h1 class="card__header">
+                    Get <span class="card__header--violet">insights</span> that
+                    help your business grow.
+                </h1>
+                <p class="card__paragraph">
+                    Discover the benefits of data analytics and make better
+                    decisions regarding revenue, customer experience, and
+                    overall efficiency.
+                </p>
+                <div class="text__stats">
+                    <p class="stats__stat">
+                        <span class="stat--bold">10k+</span> <br />COMPANIES
+                    </p>
+                    <p class="stats__stat">
+                        <span class="stat--bold">314</span> <br />
+                        TEMPLATES
+                    </p>
+                    <p class="stats__stat">
+                        <span class="stat--bold">12M+</span> <br />
+                        QUERIES
+                    </p>
+                </div>
+            </div>
+        </article>
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Your Name Here</a>.
+        </footer>
+    </body>
 </html>
