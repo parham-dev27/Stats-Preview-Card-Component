@@ -30,6 +30,7 @@ body {
         display: flex;
         flex-flow: column nowrap;
         gap: 1rem;
+        justify-content: space-around;
     }
     &__header {
         font-size: 28px;

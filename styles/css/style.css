@@ -46,6 +46,7 @@ body {
   display: flex;
   flex-flow: column nowrap;
   gap: 1rem;
+  justify-content: space-around;
 }
 .card__header {
   font-size: 28px;
