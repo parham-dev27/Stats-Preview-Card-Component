@@ -1,14 +1,14 @@
 <img src="screenshots/desktop-view.png"></img>
 
-<h1 align="center">QR Code Component</h1>
+<h1 align="center">Stats Preview Card Component</h1>
 
 <div align="center">
   <h3>
-    <a href="https://parham-dev27.github.io/Stats-Preview-Component/" color="white">
+    <a href="https://parham-dev27.github.io/Stats-Preview-Card-Component/" color="white">
       Live
     </a>
     <span> | </span>
-    <a href="#solution">
+    <a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-by-parhamdev27-q4TWQGXxay">
       Solution
     </a>
    <span> | </span>
@@ -45,4 +45,4 @@ Another great project to practice grid. I finally had a better understanding of 
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="#solution">solution</a>. It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-by-parhamdev27-q4TWQGXxay">solution</a>. It definitely helps to find new ways to code and find easier solutions!
